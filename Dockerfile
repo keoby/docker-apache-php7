@@ -25,6 +25,7 @@ RUN apt-get update && \
       php-zip \
       php-soap \
       php-xdebug \
+      php-redis \
       composer
 
 COPY apache_default /etc/apache2/sites-available/000-default.conf
